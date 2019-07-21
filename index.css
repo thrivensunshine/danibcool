@@ -1,15 +1,84 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+/* @import url('https://fonts.googleapis.com/css?family=Abril+Fatface'); */
 
-
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body{
-  background:#006400;
-  font-family:  'Abril Fatface', cursive;
-    text-align: center;
-
+  ;
+  font-family:  'Oswald', sans-serif;
+    /* text-align: center; */
+    font-size: .5em
 }
 
 h1{
-  font-size: 40px
 
+
+}
+
+img{
+
+
+}
+
+.title{
+
+}
+
+.profilesize{
+float:left;
+display: inline-block;
+}
+
+.profile{
+  width: 20%;
+}
+
+
+
+.aboutme {
+  position: relative;
+  float:right;
+  width: 70em;
+  font-size: 2em;
+}
+
+.allprojects{
+  position: relative;
+  text-align: center;
+  width:60%;
+}
+
+.grouptwo{
+  position: relative;
+  align-items: center;
+  /* width: 100%; */
+  display: inline-grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  text-align: center;
+  left: 4em;
+}
+
+.picsize{
+  width:60em;
+  text-align: center;
+  align-items: center;
+}
+
+.siteinfo{
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 10em;
+}
+h3{
+  font-size: 5em;
+}
+
+.p{
+  font-size: 2em;
 }
