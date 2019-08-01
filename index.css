@@ -8,7 +8,7 @@ body{
   /* background-image: url('pics4site/background1.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%; */
-  background: #BE9063;
+  background: #525B56;
 }
 
 
@@ -17,18 +17,12 @@ body{
   height:100%
 }
 
-h1{
-
-
-}
-
-img{
-
+.contact{
 
 }
 
-.title{
-
+.contactlist{
+  text-align: left;
 }
 
 .profilesize{
@@ -75,9 +69,14 @@ margin-left: 50%;
 }
 
 .siteinfo{
-  position: relative;
+  display: flex;
+  width: 100%;
+  align-content: center;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: 8%;
 }
 
 .welcome{
