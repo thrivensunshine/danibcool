@@ -2191,6 +2191,6 @@ input, select, textarea {
 
 		}
 
-		.vid{
-			align-items: center;
+		.row > .vid{
+			width: 60%;
 		}
